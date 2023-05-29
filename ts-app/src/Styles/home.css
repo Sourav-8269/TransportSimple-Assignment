@@ -1,0 +1,40 @@
+#section_1{
+    
+    margin: auto;
+    background: #f9fcff 0% 0% no-repeat padding-box;
+    display: flex;
+  margin-top: 100px;
+}
+
+#section_1>div{
+    margin-left: 10%;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid red;
+    width: 40%;
+    height: 400px;
+}
+
+#primary_button {
+    border: 2px solid #ffa200;
+    background: #ffa200;
+    border-radius: 8px;
+    opacity: 1;
+    text-align: center;
+    letter-spacing: 0.54px;
+    color: #ffffff;
+    padding: 10px 25px 10px 25px;
+    cursor: pointer;
+  }
+
+#secondary_button{
+    cursor: pointer;
+  border: 2px solid #ffa200;
+  border-radius: 8px;
+  text-align: center;
+  letter-spacing: 0.54px;
+  color: #ffa200;
+  opacity: 1;
+  padding: 10px 25px 10px 25px;
+  background-color: transparent;
+}
