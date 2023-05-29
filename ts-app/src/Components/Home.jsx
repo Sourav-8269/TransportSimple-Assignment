@@ -1,6 +1,7 @@
 import React from "react";
 import "../Styles/home.css"
 import mechanicalengineer from "../Images/mechanical-engineer.jpg";
+import {FiTruck} from "react-icons/fi"
 const Home = () => {
   return (
     <div>
@@ -20,7 +21,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <section id="section_2">
+      <div id="section_2">
         <div id="section_2_heading">
           <div>
             <p>
@@ -38,9 +39,22 @@ const Home = () => {
           </p>
         </div>
         <div id="engineer_div">
-            <img id="enginner_img" src={mechanicalengineer} alt="Engineer" srcset="" />
+            <img id="engineer_img" src={mechanicalengineer} alt="Engineer"/>
+            <div>
+            {/* <FiTruck size="20" /> */}
+              <div>
+                  {/* <div> */}
+                    <FiTruck color="#4AA0FC" size={"20px"} />
+                  {/* </div> */}
+                  <p>135400</p>
+                  <p>vehicles</p>
+              </div>
+            </div>
         </div>
-        </section>
+        </div>
+        <div id="section_3">
+
+        </div>
     </div>
   );
 };

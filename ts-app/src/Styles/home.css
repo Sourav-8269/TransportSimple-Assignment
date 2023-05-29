@@ -1,3 +1,6 @@
+/* * {
+    outline: 1px solid red;
+  } */
 #section_1{
     
     margin: auto;
@@ -12,7 +15,6 @@
     padding: 20px;
     border: 1px solid red;
     width: 40%;
-    height: 400px;
 }
 #section_1>div>h1{
     text-align: left;
@@ -48,7 +50,7 @@
 
 #section_2 {
     display: flex;
-    width: 100vw;
+    max-width: 100vw;
     padding: 80px 0px 80px 0;
     align-items: center;
 }
@@ -57,9 +59,10 @@
     margin-left: 10%;
     text-align: left;
     padding: 20px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 40%;
-    height: 400px;
+    /* height: 400px; */
+
 }
 #section_2_heading>div{
     border: 1px solid red;
@@ -69,18 +72,70 @@
 }
 #section_2_heading>p{
     font-size: 22px;
-    
 }
 
+#engineer_div{
+    width: 50%;
+    overflow: hidden;
+    /* max-width: 90%;
+    border: 2px solid blue; */
+    /* position: relative; */
+    /* height: 40vw; */
+}
+
+
 #enginner_img {
-    position: absolute;
-    right:-110px;
-    /* transform: translateY(-50%); */
-    border: 2px solid red;
+    /* position: absolute; */
+    /* transform: translateY(-50%);
+    right:-70px; */
+    /* border: 2px solid red;
     border-radius: 50%;
-    /* border: 55px solid #f7f7f7; */
+    border: 55px solid #f7f7f7;
     width: 40vw;
     height: 40vw;
     object-fit: cover;
-    margin-top: -300px;
+    max-width: 80%; */
+    /* margin-top: -300px; */
+    /* overflow: hidden; */
+}
+/* #enginner_img{
+    position: absolute;
+   left: 110px; 
+  transform: translateY(-45%); 
+  border-radius: 50%;
+  border: 55px solid #f7f7f7;
+  width: 40vw;
+  height: 40vw;
+  object-fit: cover;
+} */
+
+#engineer_img{
+    width: 50%;
+    border-radius: 50%;
+  border: 35px solid #f7f7f7;
+  width: 40vw;
+  height: 40vw;
+  object-fit: cover;
+  margin-left: 15%;
+ 
+}
+@media (max-width: 600px) {
+    #section_1>div{
+        width: 90%;
+        border: 1px solid red;
+        margin: auto;
+    }
+  #section_2{
+    flex-direction: column;
   }
+  #section_2_heading{
+    width: 90%;
+    margin: auto;
+}
+#engineer_div{
+    margin-top: 5%;
+    border: 1px solid red;
+    width: 90%;
+  }
+}
+
