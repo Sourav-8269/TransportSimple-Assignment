@@ -30,7 +30,7 @@ const Navbar = () => {
         className={`hamburger ${isOpen ? "open" : ""}`}
         onClick={toggleNavbar}
       >
-        {isOpen?<RxHamburgerMenu size="45px" />:<GrFormClose size="45px" />}
+        {!isOpen?<RxHamburgerMenu size="45px" />:<GrFormClose size="45px" />}
       </div>
       <div className="demo">
         <button className="demo_btn">Get Demo</button>

@@ -124,6 +124,42 @@
 #vehicle_catalog>div:nth-child(4){
   border-right: none;
 }
+#section_6_heading{
+  font-weight: 500;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+#section_6_heading>span{
+  color: #1da1f2;
+}
+#grid-images{
+  display: grid;
+  /* border: 1px solid red; */
+  margin: auto;
+  width: 60%;
+  grid-gap: 25px;
+  grid-template-columns: repeat(4,1fr);
+  margin-bottom: 5%;
+}
+#grid-images>div{
+  background-color: #1da1f2;
+  /* width: 150px; */
+  height: 116px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: whitesmoke;
+  border-radius: 20px;
+}
+#grid-images>div:nth-child(1) {
+  /* padding: 20px;
+  border: 1px solid red; */
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  height: 400px;
+}
 
 @media (max-width: 600px) {
     #section_1>div{
@@ -159,6 +195,16 @@
   }
   #vehicle_catalog>div{
     padding: 10px;
+  }
+  #grid-images {
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+  }
+  #grid-images > div:nth-child(1){
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
   }
 }
 

@@ -73,6 +73,21 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <div id="section_6">
+        <h2 id="section_6_heading">
+          ACHIEVEMENTS & <span>NEWS</span>
+        </h2>
+        <div id="grid-images" >
+          <div>Div 1</div>
+          <div>Div 2</div>
+          <div>Div 3</div>
+          <div>Div 4</div>
+          <div>Div 5</div>
+          <div>Div 6</div>
+          <div>Div 7</div>
+          <div>Div 8</div>
+        </div>
+      </div>
       <div id="section_3"></div>
     </div>
   );
