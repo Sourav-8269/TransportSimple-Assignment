@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../Styles/navbar.css";
 import { RxHamburgerMenu } from "react-icons/rx";
+import {GrFormClose} from "react-icons/gr"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,7 +30,7 @@ const Navbar = () => {
         className={`hamburger ${isOpen ? "open" : ""}`}
         onClick={toggleNavbar}
       >
-        <RxHamburgerMenu size="45px" />
+        {isOpen?<RxHamburgerMenu size="45px" />:<GrFormClose size="45px" />}
       </div>
       <div className="demo">
         <button className="demo_btn">Get Demo</button>

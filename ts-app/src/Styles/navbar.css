@@ -16,7 +16,7 @@
   .navbar-logo img {
     display: flex;
     width: 50%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     justify-content: left;
   }
   
@@ -40,9 +40,8 @@
     font-weight: 600;
     cursor: pointer;
   }
-  .navbar-links li :hover{
+  .navbar-links li:hover{
     color: #0537ac;
-    border: 1px solid red;
   }
   
   
@@ -89,6 +88,7 @@
   
     .navbar-links.open {
       display: flex;
+      transition: display 2s;
       justify-content: center;
     }
   

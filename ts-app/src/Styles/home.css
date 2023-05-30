@@ -84,32 +84,6 @@
     /* height: 40vw; */
 }
 
-
-#enginner_img {
-    /* position: absolute; */
-    /* transform: translateY(-50%);
-    right:-70px; */
-    /* border: 2px solid red;
-    border-radius: 50%;
-    border: 55px solid #f7f7f7;
-    width: 40vw;
-    height: 40vw;
-    object-fit: cover;
-    max-width: 80%; */
-    /* margin-top: -300px; */
-    /* overflow: hidden; */
-}
-/* #enginner_img{
-    position: absolute;
-   left: 110px; 
-  transform: translateY(-45%); 
-  border-radius: 50%;
-  border: 55px solid #f7f7f7;
-  width: 40vw;
-  height: 40vw;
-  object-fit: cover;
-} */
-
 #engineer_img{
   /* display: none; */
     width: 50%;
