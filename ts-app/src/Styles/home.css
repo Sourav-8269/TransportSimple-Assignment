@@ -160,6 +160,30 @@
   grid-column-end: 4;
   height: 400px;
 }
+#mentors_div{
+  display: flex;
+  /* border: 1px solid red; */
+  width: 70%;
+  margin: auto;
+  /* height: 200px; */
+  margin-top: 5%;
+  margin-bottom: 5%;
+  justify-content: space-between;
+}
+#mentors_div>img{
+  width: 25%;
+  /* height: 200px; */
+}
+@media (max-width: 800px) {
+  #mentors_div{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #mentors_div>img{
+    width: 50%;
+  }
+}
 
 @media (max-width: 600px) {
     #section_1>div{

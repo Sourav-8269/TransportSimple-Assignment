@@ -73,6 +73,31 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <div id="section_5">
+          <h2 id="section_6_heading">
+            OUR <span>MENTOR</span>
+          </h2>
+          <div id="mentors_div" >
+            <img
+              src={
+                "https://www.f6s.com/content-resource/profiles/1510727_original.jpg"
+              }
+              alt="start-up"
+            />
+            <img
+              src={
+                "https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/IIM_Bangalore_Logo.svg/1200px-IIM_Bangalore_Logo.svg.png"
+              }
+              alt="IIM-Bangalore"
+            />
+            <img
+              src={
+                "https://www.iimb.ac.in/sites/default/files/2020-07/NSRCEL%20Main%20logo.jpg"
+              }
+              alt="NSRCEL"
+            />
+          </div>
+        </div>
       <div id="section_6">
         <h2 id="section_6_heading">
           ACHIEVEMENTS & <span>NEWS</span>
