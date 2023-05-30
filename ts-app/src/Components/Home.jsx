@@ -7,6 +7,7 @@ import Developer from "../Images/Developer.png"
 import Experts from "../Images/Experts.png"
 import support from "../Images/support.png"
 import trustworthy from "../Images/trustworthy.png"
+import { FaHandshake } from "react-icons/fa";
 const Home = () => {
   return (
     <div>
@@ -78,15 +79,86 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <div id="bannerSection">
+        <h1 id="banner_heading">There are 3 steps to get <br/>Worlds most visible platform</h1>
+        <div id="banners">
+          <div>
+            <div id="orangeIcon">
+              <h1>01</h1>
+            </div>
+            <h3>We will your Tech partner</h3>
+              <p>
+                We have 20+ years of industry experience and understand the
+                challenges faced by you. Let us manage technology while you expand
+                your business!
+              </p>
+              <div id="bannerIcon">
+                <FaHandshake color="#ffa200" size="50px" />
+              </div>
+          </div>
+          <div>
+            <div id="orangeIcon">
+              <h1>02</h1>
+            </div>
+            <h3>We will your Tech partner</h3>
+              <p>
+                We have 20+ years of industry experience and understand the
+                challenges faced by you. Let us manage technology while you expand
+                your business!
+              </p>
+              <div id="bannerIcon">
+                <FaHandshake color="#ffa200" size="50px" />
+              </div>
+          </div>
+          <div>
+            <div id="orangeIcon">
+              <h1>03</h1>
+            </div>
+            <h3>We will your Tech partner</h3>
+              <p>
+                We have 20+ years of industry experience and understand the
+                challenges faced by you. Let us manage technology while you expand
+                your business!
+              </p>
+              <div id="bannerIcon">
+                <FaHandshake color="#ffa200" size="50px" />
+              </div>
+          </div>
+        </div>
+      </div>
+      <div id="sectionDemo">
+        <div id="demoMain">
+            <h2>Be more efficient and profitable with TransportSimple</h2>
+            <p>
+              We offer solutions to streamline operations and accounts, resulting
+              in enhanced productivity increased profits, scalability and ease in
+              daily operations. We've been building a solution to revolutionise
+              the logistics industry globally.
+            </p>
+            <button id="demo_button">Book A Demo</button>
+          </div>
+      </div>
       <div id="section_3">
         <h2 id="section_6_heading">
           BENEFITS OF WORKING WITH <span>US</span>
         </h2>
         <div id="investors_div">
-          <img src={Developer} alt="upekkha" />
-          <img src={Experts} alt="upekkha" />
-          <img src={support} alt="upekkha" />
-          <img src={trustworthy} alt="upekkha" />
+           <div>
+            <img src={Experts} alt="upekkha" />
+            <p>Industry Experts</p>
+          </div>
+          <div>
+            <img src={Developer} alt="upekkha" />
+            <p>Top notch Developers Experts</p>
+          </div>
+           <div>
+            <img src={support} alt="upekkha" />
+            <p>Full customer cupport team</p>
+          </div>
+           <div>
+            <img src={trustworthy} alt="upekkha" />
+            <p>Trustworthy and reliable</p>
+          </div>
         </div>
       </div>
       <div id="section_4">
