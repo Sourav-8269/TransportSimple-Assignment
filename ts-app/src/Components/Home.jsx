@@ -8,6 +8,7 @@ import Experts from "../Images/Experts.png"
 import support from "../Images/support.png"
 import trustworthy from "../Images/trustworthy.png"
 import { FaHandshake } from "react-icons/fa";
+import FirstBanner2 from "../Images/FirstBanner.png";
 const Home = () => {
   return (
     <div>
@@ -29,6 +30,10 @@ const Home = () => {
             <button id="secondary_button">Contact us</button>
           </div>
         </div>
+        <div id="firstImage">
+          <img src={FirstBanner2} alt="" srcset="" />
+        </div>
+        <div id="blob" ></div>
       </div>
       <div id="section_2">
         <div id="section_2_heading">
