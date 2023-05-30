@@ -2,6 +2,11 @@ import React from "react";
 import "../Styles/home.css";
 import mechanicalengineer from "../Images/mechanical-engineer.jpg";
 import { FiTruck } from "react-icons/fi";
+import upekkha from "../Images/upekkha.png";
+import Developer from "../Images/Developer.png"
+import Experts from "../Images/Experts.png"
+import support from "../Images/support.png"
+import trustworthy from "../Images/trustworthy.png"
 const Home = () => {
   return (
     <div>
@@ -48,7 +53,7 @@ const Home = () => {
         </div>
         <div id="engineer_div">
           <img id="engineer_img" src={mechanicalengineer} alt="Engineer" />
-          <div id="vehicle_catalog" >
+          <div id="vehicle_catalog">
             {/* <FiTruck size="20" /> */}
             <div>
               <FiTruck color="#4AA0FC" size={"20px"} />
@@ -73,36 +78,58 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div id="section_5">
-          <h2 id="section_6_heading">
-            OUR <span>MENTOR</span>
-          </h2>
-          <div id="mentors_div" >
-            <img
-              src={
-                "https://www.f6s.com/content-resource/profiles/1510727_original.jpg"
-              }
-              alt="start-up"
-            />
-            <img
-              src={
-                "https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/IIM_Bangalore_Logo.svg/1200px-IIM_Bangalore_Logo.svg.png"
-              }
-              alt="IIM-Bangalore"
-            />
-            <img
-              src={
-                "https://www.iimb.ac.in/sites/default/files/2020-07/NSRCEL%20Main%20logo.jpg"
-              }
-              alt="NSRCEL"
-            />
-          </div>
+      <div id="section_3">
+        <h2 id="section_6_heading">
+          BENEFITS OF WORKING WITH <span>US</span>
+        </h2>
+        <div id="investors_div">
+          <img src={Developer} alt="upekkha" />
+          <img src={Experts} alt="upekkha" />
+          <img src={support} alt="upekkha" />
+          <img src={trustworthy} alt="upekkha" />
         </div>
+      </div>
+      <div id="section_4">
+        <h2 id="section_6_heading">
+          OUR <span>INVESTOR</span>
+        </h2>
+        <div id="investors_div">
+          <img src={upekkha} alt="upekkha" />
+          <img src={upekkha} alt="upekkha" />
+          <img src={upekkha} alt="upekkha" />
+          <img src={upekkha} alt="upekkha" />
+        </div>
+      </div>
+      <div id="section_5">
+        <h2 id="section_6_heading">
+          OUR <span>MENTOR</span>
+        </h2>
+        <div id="mentors_div">
+          <img
+            src={
+              "https://www.f6s.com/content-resource/profiles/1510727_original.jpg"
+            }
+            alt="start-up"
+          />
+          <img
+            src={
+              "https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/IIM_Bangalore_Logo.svg/1200px-IIM_Bangalore_Logo.svg.png"
+            }
+            alt="IIM-Bangalore"
+          />
+          <img
+            src={
+              "https://www.iimb.ac.in/sites/default/files/2020-07/NSRCEL%20Main%20logo.jpg"
+            }
+            alt="NSRCEL"
+          />
+        </div>
+      </div>
       <div id="section_6">
         <h2 id="section_6_heading">
           ACHIEVEMENTS & <span>NEWS</span>
         </h2>
-        <div id="grid-images" >
+        <div id="grid-images">
           <div>Div 1</div>
           <div>Div 2</div>
           <div>Div 3</div>
